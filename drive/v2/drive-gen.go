@@ -14,13 +14,14 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"golang.org/x/net/context"
-	"google.golang.org/api/googleapi"
 	"io"
 	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
+
+	"golang.org/x/net/context"
+	"google.golang.org/api/googleapi"
 )
 
 // Always reference these packages, just in case the auto-generated code
@@ -3818,9 +3819,9 @@ func (c *FilesInsertCall) Do() (*File, error) {
 		}
 		req.Header.Set("X-Upload-Content-Type", c.mediaType_)
 		req.Body = nil
-		if params.Get("name") == "" {
+		/*if params.Get("name") == "" {
 			return nil, fmt.Errorf("resumable uploads must set the Name parameter.")
-		}
+		}*/
 	} else {
 		req.Header.Set("Content-Type", ctype)
 	}
