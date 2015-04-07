@@ -1,0 +1,85 @@
+{
+	"ImportPath": "github.com/AltSchool/google-api-go-client",
+	"GoVersion": "go1.4",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "6460565bec1e8891e29ff478184c71b9e443ac36"
+		},
+		{
+			"ImportPath": "golang.org/x/oauth2",
+			"Rev": "ce5ea7da934b76b1066c527632359e2b8f65db97"
+		},
+		{
+			"ImportPath": "google.golang.org/api/bigquery/v2",
+			"Rev": "c96ec135b788113a95d7583255931ff00c36d938"
+		},
+		{
+			"ImportPath": "google.golang.org/api/books/v1",
+			"Rev": "c96ec135b788113a95d7583255931ff00c36d938"
+		},
+		{
+			"ImportPath": "google.golang.org/api/calendar/v3",
+			"Rev": "c96ec135b788113a95d7583255931ff00c36d938"
+		},
+		{
+			"ImportPath": "google.golang.org/api/compute/v1",
+			"Rev": "c96ec135b788113a95d7583255931ff00c36d938"
+		},
+		{
+			"ImportPath": "google.golang.org/api/drive/v2",
+			"Rev": "c96ec135b788113a95d7583255931ff00c36d938"
+		},
+		{
+			"ImportPath": "google.golang.org/api/fitness/v1",
+			"Rev": "c96ec135b788113a95d7583255931ff00c36d938"
+		},
+		{
+			"ImportPath": "google.golang.org/api/gmail/v1",
+			"Rev": "c96ec135b788113a95d7583255931ff00c36d938"
+		},
+		{
+			"ImportPath": "google.golang.org/api/googleapi",
+			"Rev": "c96ec135b788113a95d7583255931ff00c36d938"
+		},
+		{
+			"ImportPath": "google.golang.org/api/mapsengine/v1",
+			"Rev": "c96ec135b788113a95d7583255931ff00c36d938"
+		},
+		{
+			"ImportPath": "google.golang.org/api/mirror/v1",
+			"Rev": "c96ec135b788113a95d7583255931ff00c36d938"
+		},
+		{
+			"ImportPath": "google.golang.org/api/prediction/v1.6",
+			"Rev": "c96ec135b788113a95d7583255931ff00c36d938"
+		},
+		{
+			"ImportPath": "google.golang.org/api/pubsub/v1beta1",
+			"Rev": "c96ec135b788113a95d7583255931ff00c36d938"
+		},
+		{
+			"ImportPath": "google.golang.org/api/storage/v1",
+			"Rev": "c96ec135b788113a95d7583255931ff00c36d938"
+		},
+		{
+			"ImportPath": "google.golang.org/api/tasks/v1",
+			"Rev": "c96ec135b788113a95d7583255931ff00c36d938"
+		},
+		{
+			"ImportPath": "google.golang.org/api/urlshortener/v1",
+			"Rev": "c96ec135b788113a95d7583255931ff00c36d938"
+		},
+		{
+			"ImportPath": "google.golang.org/cloud/compute/metadata",
+			"Rev": "c97f5f9979a8582f3ab72873a51979619801248b"
+		},
+		{
+			"ImportPath": "google.golang.org/cloud/internal",
+			"Rev": "c97f5f9979a8582f3ab72873a51979619801248b"
+		}
+	]
+}
